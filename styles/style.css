@@ -6,9 +6,26 @@
     box-sizing: border-box;
 }
 
-/* header style */
+/* shared style */
+.section-title-writng {
+    font-family: Azeret Mono;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
 
-header {}
+.section-title-writng h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 25px;
+}
+
+.section-title-writng p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
 
 /* navbar style start */
 
@@ -120,37 +137,13 @@ nav button {
     padding: 80px 98px;
     background-color: rgba(141, 130, 130, 0.1);
     background-blend-mode: overlay;
+    margin-top: 74px;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 .why-web .why-content {
     width: 946px;
     height: 1235px;
-}
-
-.why-web .why-text {
-    width: 852px;
-    height: 115px;
-    margin-bottom: 48px;
-}
-
-.why-web .why-text h1 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.why-web .why-text p {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-
 }
 
 .why-web .div-box {
@@ -164,12 +157,14 @@ nav button {
     display: flex;
     padding: 48px;
     gap: 20px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
 }
 
 .why-web .div-box .div-card-style1 {
     justify-content: space-between;
-    background-color: rgba(141, 130, 130, 0.1);
-    background-blend-mode: overlay;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
 
 }
 
@@ -201,3 +196,83 @@ nav button {
 }
 
 /* why web style end */
+
+/* inspiration section style start */
+
+.inspiration-section {
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.inspiration-section .ins-link-video {
+    border-radius: 16px;
+}
+
+/* inspiration-section style end */
+
+/* current section style start */
+
+.current-section {
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+}
+
+.current-section .current-terget-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.currnt-card-html{
+padding: 40px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+
+.currnt-card-css{
+    padding: 40px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+
+.currnt-card-js{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.current-terget-card h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.current-terget-card p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.current-terget-card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+/* current section end */

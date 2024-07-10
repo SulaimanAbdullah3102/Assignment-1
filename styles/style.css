@@ -157,13 +157,13 @@ nav button {
     display: flex;
     padding: 48px;
     gap: 20px;
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     border-radius: 16px;
 }
 
 .why-web .div-box .div-card-style1 {
     justify-content: space-between;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     border-radius: 16px;
 
 }
@@ -176,6 +176,7 @@ nav button {
     font-weight: 700;
     line-height: 36px;
     text-align: left;
+    margin-bottom: 16px;
 }
 
 .why-web .div-box p {
@@ -230,19 +231,19 @@ nav button {
     gap: 24px;
 }
 
-.currnt-card-html{
-padding: 40px;
-border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
-}
-
-.currnt-card-css{
+.currnt-card-html {
     padding: 40px;
-border-radius: 16px;
-background: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
 }
 
-.currnt-card-js{
+.currnt-card-css {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.currnt-card-js {
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
@@ -276,3 +277,81 @@ background: rgba(0, 76, 232, 0.05);
 }
 
 /* current section end */
+
+/* Next terget section style start */
+
+.next-terget {
+    width: 1140px;
+    height: 871px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+/* Next terget section style end */
+
+/* Support style start */
+
+.support-section {
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px;
+    background-color: rgb(0, 0, 0, 0.4);
+    background-image: url(../images/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.support-section .support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-section .support-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.support-section .support-content p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.support-content .type {
+    width: 548px;
+    height: 57px;
+    margin-right: 16px;
+    border-radius: 8px;
+    padding: 19px 20px;
+}
+
+.support-content .submit {
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+}
+
+/* Support style end */
+
+/* footer style start */
+
+
+
+/* footer style end */

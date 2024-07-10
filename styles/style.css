@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /* shared style */
 .section-title-writng {
     font-family: Azeret Mono;
@@ -111,14 +114,14 @@ nav button {
     text-align: center;
 }
 
-.banner .banner-content button {
+.banner .banner-content #banner-butto-txt{
     width: 208px;
     height: 66px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 23px;
     text-align: center;
@@ -224,6 +227,7 @@ nav button {
     width: 1140px;
     height: 463px;
     margin: 0 auto;
+    margin-top: 150px;
 }
 
 .current-section .current-terget-card {

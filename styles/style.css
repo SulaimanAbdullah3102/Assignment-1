@@ -211,6 +211,8 @@ nav button {
 
 
 .inspiration-section .ins-link-video {
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
 
@@ -283,8 +285,39 @@ nav button {
 .next-terget {
     width: 1140px;
     height: 871px;
-    border: 2px solid red;
     margin: 0 auto;
+    margin-top: 111px;
+}
+
+.next-card-box .next-card {
+    display: flex;
+    margin-bottom: 24px;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.next-card-box .next-card .writing-box {
+    padding: 0 24px;
+}
+
+.next-card .writing-box h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+
+.next-card .writing-box p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
 }
 
 /* Next terget section style end */
@@ -350,8 +383,3 @@ nav button {
 
 /* Support style end */
 
-/* footer style start */
-
-
-
-/* footer style end */
